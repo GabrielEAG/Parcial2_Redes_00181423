@@ -1,0 +1,27 @@
+Jun 05 08:13:40.782 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 05 08:13:40.786 HYPERVISOR: Started on IP = localhost, TCP port = 56625.
+Jun 05 08:13:40.952 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 05 08:13:40.952 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\geagu\GNS3\projects\Parcial2_Redes\project-files\dynamips 
+Jun 05 08:13:40.955 GENERAL: working_dir=C:\Users\geagu\GNS3\projects\Parcial2_Redes\project-files\dynamips
+Jun 05 08:13:40.955 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\geagu\GNS3\projects\Parcial2_Redes\project-files\dynamips\3b2bf755-bfef-4777-90ee-cf107e85e838 
+Jun 05 08:13:40.960 GENERAL: working_dir=C:\Users\geagu\GNS3\projects\Parcial2_Redes\project-files\dynamips\3b2bf755-bfef-4777-90ee-cf107e85e838
+Jun 05 08:13:40.960 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Jun 05 08:13:40.963 VM: VM R1 created.
+Jun 05 08:13:40.965 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Jun 05 08:13:40.965 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Jun 05 08:13:40.965 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jun 05 08:13:40.966 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Jun 05 08:13:40.966 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:13:40.966 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60c086a8 
+Jun 05 08:13:40.966 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/geagu/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.bin 
+Jun 05 08:13:40.966 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jun 05 08:13:40.966 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:13:40.966 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-4T 
+Jun 05 08:13:41.017 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/geagu/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.bin 
+Jun 05 08:13:47.327 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:13:47.327 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jun 05 08:13:47.330 HYPERVISOR: exec_cmd: vm delete R1 
+Jun 05 08:13:47.330 VM: VM R1 destroyed.
+Jun 05 08:13:47.333 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 05 08:13:47.543 HYPERVISOR: Stopped.
+Jun 05 08:13:47.543 GENERAL: reset done.

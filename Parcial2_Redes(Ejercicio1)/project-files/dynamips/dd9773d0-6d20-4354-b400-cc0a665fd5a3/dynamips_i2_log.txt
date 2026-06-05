@@ -1,0 +1,63 @@
+Jun 05 08:28:44.520 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 05 08:28:44.524 HYPERVISOR: Started on IP = localhost, TCP port = 56873.
+Jun 05 08:28:45.002 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 05 08:28:45.002 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\geagu\GNS3\projects\Parcial2_Redes\project-files\dynamips 
+Jun 05 08:28:45.021 GENERAL: working_dir=C:\Users\geagu\GNS3\projects\Parcial2_Redes\project-files\dynamips
+Jun 05 08:28:45.024 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\geagu\GNS3\projects\Parcial2_Redes\project-files\dynamips\77e6f895-fa01-4919-b19c-13335ba2b3b1 
+Jun 05 08:28:45.024 GENERAL: working_dir=C:\Users\geagu\GNS3\projects\Parcial2_Redes\project-files\dynamips\77e6f895-fa01-4919-b19c-13335ba2b3b1
+Jun 05 08:28:45.024 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Jun 05 08:28:45.026 VM: VM R1 created.
+Jun 05 08:28:45.026 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Jun 05 08:28:45.028 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Jun 05 08:28:45.028 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jun 05 08:28:45.028 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Jun 05 08:28:45.028 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:28:45.028 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60c086a8 
+Jun 05 08:28:45.030 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/geagu/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.bin 
+Jun 05 08:28:45.030 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jun 05 08:28:45.030 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:28:45.030 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-4T 
+Jun 05 08:28:45.084 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/geagu/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.bin 
+Jun 05 08:29:01.228 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/geagu/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.bin 
+Jun 05 08:36:33.730 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/geagu/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.bin 
+Jun 05 08:37:22.510 HYPERVISOR: exec_cmd: nio create_udp udp-d50504b2-c687-4b98-8e8f-a6e4ae9742e3 10002 127.0.0.1 10003 
+Jun 05 08:37:22.855 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-d50504b2-c687-4b98-8e8f-a6e4ae9742e3 
+Jun 05 08:37:22.855 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:37:32.137 HYPERVISOR: exec_cmd: nio create_udp udp-735593a9-3c15-4749-8018-53e071f23820 10006 127.0.0.1 10007 
+Jun 05 08:37:32.151 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-735593a9-3c15-4749-8018-53e071f23820 
+Jun 05 08:37:32.151 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:38:33.381 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:38:33.381 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-4T 
+Jun 05 08:39:51.903 HYPERVISOR: exec_cmd: nio create_udp udp-03d5fcd4-0227-4e15-a673-28fdd7a0d32d 10010 127.0.0.1 10011 
+Jun 05 08:39:51.903 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-03d5fcd4-0227-4e15-a673-28fdd7a0d32d 
+Jun 05 08:39:51.903 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:41:42.420 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:41:42.420 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 2 0 
+Jun 05 08:41:42.420 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:41:42.420 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-1FE-TX 
+Jun 05 08:41:49.936 HYPERVISOR: exec_cmd: nio create_udp udp-fcbd40d2-7b8e-441a-b619-f96b46769f03 10026 127.0.0.1 10027 
+Jun 05 08:41:49.940 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 2 0 udp-fcbd40d2-7b8e-441a-b619-f96b46769f03 
+Jun 05 08:41:49.941 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:46:10.286 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Jun 05 08:46:10.286 VM: VM Ghost created.
+Jun 05 08:46:10.286 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/geagu/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.bin 
+Jun 05 08:46:10.286 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jun 05 08:46:10.286 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\geagu\GNS3\projects\Parcial2_Redes\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.bin-128.ghost 
+Jun 05 08:46:10.286 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 05 08:46:10.286 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jun 05 08:46:10.286 HYPERVISOR: exec_cmd: vm start Ghost 
+Jun 05 08:46:10.796 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jun 05 08:46:10.796 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jun 05 08:46:10.950 VM: VM Ghost shutdown.
+Jun 05 08:46:10.950 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jun 05 08:46:10.950 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jun 05 08:46:10.950 VM: VM Ghost destroyed.
+Jun 05 08:46:10.958 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Jun 05 08:46:10.958 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\geagu\GNS3\projects\Parcial2_Redes\project-files\dynamips\c3725-adventerprisek9-mz.124-15.T14.bin-128.ghost 
+Jun 05 08:46:10.972 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 05 08:46:10.973 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Jun 05 08:46:10.973 HYPERVISOR: exec_cmd: vm start R1 
+Jun 05 08:46:41.310 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jun 05 08:46:41.371 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jun 05 09:37:12.398 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jun 05 09:37:12.413 HYPERVISOR: exec_cmd: vm extract_config R1 
